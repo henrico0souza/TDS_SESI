@@ -20,7 +20,7 @@ cauculardesconto(1000, 5);
 
 function cauculartota(preco, quantidade) {
     const valortotal = preco * quantidade;
-    console.log('ovalor total e de: ${valortotal}');
+    console.log('o valor total e de: ${valortotal}');
 }
 
 cauculartotal(100, 12);
