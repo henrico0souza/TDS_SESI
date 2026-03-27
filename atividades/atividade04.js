@@ -1,5 +1,12 @@
-const precoinal = 100;
-let desconto = preco > 100
-console.log(mensagem);
+let preco = 101;
+let desconto;
 
-console.log
+if(preco<100) {
+    desconto = true;
+}
+else{
+    desconto = false;
+}
+
+let mensagem = desconto == true ? preco * 0.9 : preco;
+console.log(mensagem);
